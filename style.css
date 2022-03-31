@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.linktree{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:40px auto;
+
+}
+
+
+.linktree img{
+    height: 350px;
+    border-radius: 50%;
+    margin: -20px;
+}
+
+
+.linktree a{
+    background-color:   #922E8E;
+    color:#FFF844;
+    font-family: "Quantico";
+    font-size: x-large;
+    width: 70%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: #FFF844;
+    border-width: 2px;
+    margin-bottom: 20px;
+    transition: 0.15s ease-in-out 100ms;
+    
+}
+
+.linktree a:hover{
+    background-color:#ad57a4;
+    width: 75%;
+}
+
+.linktree a:click{
+    width:5%;
+}
